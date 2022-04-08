@@ -14,9 +14,9 @@ papirus-folders -C teal
 
 cd ~/build/arch/
 
-tar -zxf material_cursors.tar.gz -C /usr/share/icons/
+sudo cp -r material_light_cursors /usr/share/icons/
 
-sudo sed -i 's/Inherits=.*/Inherits=material_cursors/' /usr/share/icons/default/index.theme
+sudo sed -i 's/Inherits=.*/Inherits=material_light_cursors/' /usr/share/icons/default/index.theme
 
 sh gaomon-config.sh
 
