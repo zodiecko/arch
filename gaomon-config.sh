@@ -1,4 +1,5 @@
 #!/bin/bash
+cd ~/build/arch/
 
 sudo pacman -S --needed  linux linux-headers xf86-input-wacom dkms base-devel
 

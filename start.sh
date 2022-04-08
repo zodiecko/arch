@@ -1,9 +1,18 @@
 #!/bin/sh
-yay -S notion-app insync insync-dolphin masterpdfeditor-free visual-studio-code-bin hunspell-pt-br nordic-theme-git kvantum-theme-nordic-git nordic-kde-git
+mkdir ~/build
+cd ~/build
 
-sudo pacman -S --needed papirus-folders papirus-icon-theme krita xournalpp libreoffice-fresh-pt-br
+git clone https://aur.archlinux.org/yay-bin.git
+cd yay-bin
+makepkg -si
+
+sudo pacman -S --needed papirus-icon-theme krita xournalpp libreoffice-fresh-pt-br ttf-fira-code
+
+yay -S papirus-folders-git notion-app insync insync-dolphin masterpdfeditor-free visual-studio-code-bin hunspell-pt-br nordic-theme-git kvantum-theme-nordic-git nordic-kde-git
 
 papirus-folders -C teal
+
+cd ~/build/arch/
 
 tar -zxf material_cursors.tar.gz -C /usr/share/icons/
 
