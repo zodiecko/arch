@@ -19,7 +19,7 @@ done
 #xsetwacom --set "GAOMON Gaomon Tablet_M10KPRO stylus" Mode Relative #tem que estar nessa ordem 
 xsetwacom --set "GAOMON Gaomon Tablet_M10KPRO stylus" Rotate half   #
 
-#para usar como rodinha
+#para usar igual touch
 xsetwacom --set "GAOMON Gaomon Tablet_M10KPRO stylus" "Button" "2" "pan"
 xsetwacom --set "GAOMON Gaomon Tablet_M10KPRO stylus" "PanScrollThreshold" 350 
 
@@ -33,11 +33,11 @@ xsetwacom --set "GAOMON Gaomon Tablet_M10KPRO Pad pad" "Button" "11" "key -"
 xsetwacom --set "GAOMON Gaomon Tablet_M10KPRO Pad pad" "Button" "10" "key +ctl z -ctl"
 
 
+xsetwacom --set "GAOMON Gaomon Tablet_M10KPRO Pad pad" "Button" "9" "button +9"#"voltar para frente" do mouse
 xsetwacom --set "GAOMON Gaomon Tablet_M10KPRO Pad pad" "Button" "8" "key e"
 xsetwacom --set "GAOMON Gaomon Tablet_M10KPRO Pad pad" "Button" "3" "key +ctl s -ctl"
 xsetwacom --set "GAOMON Gaomon Tablet_M10KPRO Pad pad" "Button" "2" "key +alt tab"
-xsetwacom --set "GAOMON Gaomon Tablet_M10KPRO Pad pad" "Button" "9" "key i"
-xsetwacom --set "GAOMON Gaomon Tablet_M10KPRO Pad pad" "Button" "1" "button +8"
+xsetwacom --set "GAOMON Gaomon Tablet_M10KPRO Pad pad" "Button" "1" "button +8"#voltar página =="alt <-" "backspace no dolphin"
 
 
 notify-send "Eu executei mai lirou frend"
