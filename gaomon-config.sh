@@ -1,11 +1,11 @@
 #!/bin/bash
-cd ~/build/arch/
+cd ~/dev/arch/
 
-sudo pacman -S --needed  linux linux-headers xf86-input-wacom dkms base-devel
+sudo pacman -S --needed  --noconfirm linux-headers xf86-input-wacom dkms base-devel
 
 mkdir  ~/apps
 
-yay -S digimend-kernel-drivers-dkms-git
+yay -S --noconfirm digimend-kernel-drivers-dkms-git
 
 sudo cp -f huion-tablet.conf /etc/X11/xorg.conf.d/
 

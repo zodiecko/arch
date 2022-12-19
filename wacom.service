@@ -5,7 +5,7 @@ PartOf=graphical-session.target
 
 [Service]
 Type=oneshot
-ExecStart="/home/rodie/apps/keys.sh"
+ExecStart="/home/eidor/apps/keys.sh"
 
 [Install]
 WantedBy=graphical-session.target
