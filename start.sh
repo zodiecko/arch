@@ -19,7 +19,7 @@ sudo pacman -S --needed --noconfirm zsh-theme-powerlevel10k zsh-syntax-highlight
 #/usr/bin/zshrc
 
 
-yay -S --noconfirm --needed  xournalpp papirus-folders-git insync insync-dolphin masterpdfeditor-free visual-studio-code-bin hunspell-pt-br nordic-theme-git kvantum-theme-nordic-git nordic-kde-git
+yay -S --noconfirm --needed  xournalpp-git papirus-folders-git insync insync-dolphin masterpdfeditor-free visual-studio-code-bin hunspell-pt-br nordic-theme-git kvantum-theme-nordic-git nordic-kde-git
 papirus-folders -C teal
 
 #zsh-theme-powerlevel10k-git
