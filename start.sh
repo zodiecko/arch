@@ -1,5 +1,4 @@
 #!/bin/sh
-
 sudo pacman -S --needed base-devel
 
 mkdir ~/dev
@@ -9,9 +8,9 @@ git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
 
-sudo pacman -S --needed --noconfirm plasma kate
-systemctl enable NetworkManager
-systemctl enable sddm
+#sudo pacman -S --needed --noconfirm plasma kate
+#systemctl enable NetworkManager
+#systemctl enable sddm
 
 sudo pacman -S --needed konsole dolphin-plugins zsh papirus-icon-theme krita libreoffice-fresh-pt-br ttf-fira-code
 
